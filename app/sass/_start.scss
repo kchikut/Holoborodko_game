@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: "Josefin Sans", "Arial", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background: $light;
+
+
+}
+
+.img-responsive {
+    min-width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.container {
+    max-width: 1200px;
+    min-width: 375px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+

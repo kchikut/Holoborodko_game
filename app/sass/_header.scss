@@ -1,0 +1,43 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 85px;
+    &__logo {
+        &_img {
+
+        }
+    }
+    &__menu {
+        display: flex;
+        align-items: center;
+        gap: 44px;
+        &_list {
+            color: $dark_blue;
+            font-size: 18px;
+            line-height: 24px;
+            text-decoration: none;
+           &:hover{
+               color: $coral;
+           }
+
+        }
+    }
+    &__btn {
+        padding: 13px 14px;
+        border-radius: 25px;
+        border: none;
+        background: $btn;
+        color: #FFF;
+        text-align: center;
+        font-family: "Josefin Sans", "Arial", sans-serif;;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        cursor: pointer;
+        &:hover {
+            background: $coral;
+        }
+    }
+}
